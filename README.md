@@ -1,18 +1,19 @@
 # paper-packing
 Materials regarding the paper packing project, proving that exactly 1038 sheets of A10 fit into one A0 orthogonally.
 
+## Links
+
+- YouTube video about this project: [youtu.be/zDKBCIMkDbw](https://youtu.be/zDKBCIMkDbw?si=bkWE1IyyBZIP6sHm)
+- Library of Papel: [noel-friedrich.de/papel/](https://noel-friedrich.de/papel/)
+- **F**un **O**rthogonal **R**ectangle **P**acking Website: [noel-friedrich.de/forp/](https://noel-friedrich.de/forp/)
+
 ## Lower Bound
 
 The lower bound is proven by giving an arrangement of 1038 sheets of A10 in a single A0. The packing is avaiable as a .txt file [here](/lower-bound/forp_1038s-1189x841-37x26.txt) and as an image (vector graphic [here](/lower-bound/forp_1038s-1189x841-37x26.svg)).
 
-![Lower Bound Arrangement](/lower-bound/forp_1038s-1189x841-37x26.svg)
-
 ## Upper Bound
 
 The optimal weights for the (1189, 841, 37, 26) instance can be found at [upper-bound/weights](/upper-bound/weights/).
-
-
-![Optimal Weights](/upper-bound/weights/optimal-weights.png)
 
 The code used for generating this large weightmap can be found at [upper-bound/weight-generation/large-lp](/upper-bound/weight-generation/large-lp/).
 
