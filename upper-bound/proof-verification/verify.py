@@ -7,8 +7,8 @@ assert weights.shape == (1189, 841) and weights.dtype == np.int64
 # assert that all valid rectangle placements (horizontal) have weight >= 1e6
 assert all(
     weights[i:i + 26, j:j + 37].sum() >= 1e6
-    for i in range(1189 - 26 +1)
-    for j in range( 841 - 37 +1))
+    for i in range(1189 - 26 + 1)
+    for j in range( 841 - 37 + 1))
 
 # assert that all valid rectangle placements (vertical) have weight >= 1e6
 assert all(
