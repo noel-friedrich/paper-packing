@@ -1,20 +1,18 @@
 import numpy as np
 
-# import and verify weights from disk
 weights = np.load("upper-bound/weights/rounded-weights.npy")
 assert weights.shape == (1189, 841) and weights.dtype == np.int64
+assert weights.min() >= 0
+assert weights.sum() < 1039_000_000
 
-# assert that all valid rectangle placements (horizontal) have weight >= 1e6
-assert all(
-    weights[i:i + 26, j:j + 37].sum() >= 1e6
-    for i in range(1189 - 26 + 1)
-    for j in range( 841 - 37 + 1))
+# prefix-sum matrix over large rectangle
+S = np.zeros((weights.shape[0] + 1, weights.shape[1] + 1), dtype=np.int64)
+S[1:, 1:] = weights.cumsum(axis=0).cumsum(axis=1)
 
-# assert that all valid rectangle placements (vertical) have weight >= 1e6
-assert all(
-    weights[i:i + 37, j:j + 26].sum() >= 1e6
-    for i in range(1189 - 37 + 1)
-    for j in range( 841 - 26 + 1))
+def all_rect_sums_at_least(w, h, threshold):
+    # returns all sums for (w, h) windows as a 2d array
+    sums = S[w:, h:] - S[:-w, h:] - S[w:, :-h] + S[:-w, :-h]
+    return sums.min() >= threshold
 
-# assert the total weight sum is correct and nonnegative weights
-assert weights.min() >= 0 and weights.sum() < 1039e6
+assert all_rect_sums_at_least(26, 37, 1_000_000)  # horizontal
+assert all_rect_sums_at_least(37, 26, 1_000_000)  # vertical
