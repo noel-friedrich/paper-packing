@@ -44,3 +44,24 @@ options:
   -s {simplex,barrier,pdhg}, --solver {simplex,barrier,pdhg}
                         Solver that Gurobi uses to solve the LP
 ```
+
+## A(m) in A(n)
+
+Upper and lower bound proofs for A(m) in A(n) can be found [here](/Am_in_An/). Here is a table of all relevant directories:
+
+|  | A0 | A1 | A2 | A3 | A4 | A5 | A6 | A7 | A8 | A9 | A10 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **A0**  | [A0 in A0](/Am_in_An/A0_in_A0/) | [A1 in A0](/Am_in_An/A1_in_A0/) | [A2 in A0](/Am_in_An/A2_in_A0/) | [A3 in A0](/Am_in_An/A3_in_A0/) | [A4 in A0](/Am_in_An/A4_in_A0/) | [A5 in A0](/Am_in_An/A5_in_A0/) | [A6 in A0](/Am_in_An/A6_in_A0/) | [A7 in A0](/Am_in_An/A7_in_A0/) | [A8 in A0](/Am_in_An/A8_in_A0/) | [A9 in A0](/Am_in_An/A9_in_A0/) | [A10 in A0](/Am_in_An/A10_in_A0/) |
+| **A1**  |  | [A1 in A1](/Am_in_An/A1_in_A1/) | [A2 in A1](/Am_in_An/A2_in_A1/) | [A3 in A1](/Am_in_An/A3_in_A1/) | [A4 in A1](/Am_in_An/A4_in_A1/) | [A5 in A1](/Am_in_An/A5_in_A1/) | [A6 in A1](/Am_in_An/A6_in_A1/) | [A7 in A1](/Am_in_An/A7_in_A1/) | [A8 in A1](/Am_in_An/A8_in_A1/) | [A9 in A1](/Am_in_An/A9_in_A1/) | [A10 in A1](/Am_in_An/A10_in_A1/) |
+| **A2**  |  |  | [A2 in A2](/Am_in_An/A2_in_A2/) | [A3 in A2](/Am_in_An/A3_in_A2/) | [A4 in A2](/Am_in_An/A4_in_A2/) | [A5 in A2](/Am_in_An/A5_in_A2/) | [A6 in A2](/Am_in_An/A6_in_A2/) | [A7 in A2](/Am_in_An/A7_in_A2/) | [A8 in A2](/Am_in_An/A8_in_A2/) | [A9 in A2](/Am_in_An/A9_in_A2/) | [A10 in A2](/Am_in_An/A10_in_A2/) |
+| **A3**  |  |  |  | [A3 in A3](/Am_in_An/A3_in_A3/) | [A4 in A3](/Am_in_An/A4_in_A3/) | [A5 in A3](/Am_in_An/A5_in_A3/) | [A6 in A3](/Am_in_An/A6_in_A3/) | [A7 in A3](/Am_in_An/A7_in_A3/) | [A8 in A3](/Am_in_An/A8_in_A3/) | [A9 in A3](/Am_in_An/A9_in_A3/) | [A10 in A3](/Am_in_An/A10_in_A3/) |
+| **A4**  |  |  |  |  | [A4 in A4](/Am_in_An/A4_in_A4/) | [A5 in A4](/Am_in_An/A5_in_A4/) | [A6 in A4](/Am_in_An/A6_in_A4/) | [A7 in A4](/Am_in_An/A7_in_A4/) | [A8 in A4](/Am_in_An/A8_in_A4/) | [A9 in A4](/Am_in_An/A9_in_A4/) | [A10 in A4](/Am_in_An/A10_in_A4/) |
+| **A5**  |  |  |  |  |  | [A5 in A5](/Am_in_An/A5_in_A5/) | [A6 in A5](/Am_in_An/A6_in_A5/) | [A7 in A5](/Am_in_An/A7_in_A5/) | [A8 in A5](/Am_in_An/A8_in_A5/) | [A9 in A5](/Am_in_An/A9_in_A5/) | [A10 in A5](/Am_in_An/A10_in_A5/) |
+| **A6**  |  |  |  |  |  |  | [A6 in A6](/Am_in_An/A6_in_A6/) | [A7 in A6](/Am_in_An/A7_in_A6/) | [A8 in A6](/Am_in_An/A8_in_A6/) | [A9 in A6](/Am_in_An/A9_in_A6/) | [A10 in A6](/Am_in_An/A10_in_A6/) |
+| **A7**  |  |  |  |  |  |  |  | [A7 in A7](/Am_in_An/A7_in_A7/) | [A8 in A7](/Am_in_An/A8_in_A7/) | [A9 in A7](/Am_in_An/A9_in_A7/) | [A10 in A7](/Am_in_An/A10_in_A7/) |
+| **A8**  |  |  |  |  |  |  |  |  | [A8 in A8](/Am_in_An/A8_in_A8/) | [A9 in A8](/Am_in_An/A9_in_A8/) | [A10 in A8](/Am_in_An/A10_in_A8/) |
+| **A9**  |  |  |  |  |  |  |  |  |  | [A9 in A9](/Am_in_An/A9_in_A9/) | [A10 in A9](/Am_in_An/A10_in_A9/) |
+| **A10** |  |  |  |  |  |  |  |  |  |  | [A10 in A10](/Am_in_An/A10_in_A10/) |
+
+
+Lower bounds are given as arrangement files that can be loaded into [noel-friedrich.de/forp](https://noel-friedrich.de/forp/) as `.txt` files. Upper bounds are given as short descriptions contained in appropriate `.txt` files.

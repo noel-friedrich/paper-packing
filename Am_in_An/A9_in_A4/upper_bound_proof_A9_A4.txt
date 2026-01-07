@@ -1,0 +1,14 @@
+Running the Algorithm from Birgin, Lobato and Morabito ("An effective recursive partitioning approach for the packing of identical rectangles in a rectangle.", 2010)
+(see https://doi.org/10.1057/jors.2008.141)
+on (297, 210, 52, 37) gave the following output:
+
+L and W: l and w: 
+Phase 1 (Five-block Algorithm)
+ - solution found: 32 boxes.
+ - runtime:        0.00 second
+
+Solution found: 32 boxes.
+
+Computed upper bound: 32 boxes.
+Proven optimal solution.
+Runtime: 0.00 second.
