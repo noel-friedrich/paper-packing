@@ -19,7 +19,7 @@ The code used for generating this large weightmap can be found at [upper-bound/w
 
 ### Smaller Weight Generation
 
-To compute the optimal weights for smaller instances locally, there also exists a smaller command line utility available at  [upper-bound/weight-generation/smaller-lp/generate_weights.py](/upper-bound/weight-generation/smaller-lp/generate_weights.py). Note that the utility requires the python packages Pillow, numpy, matplotlib and gurobipy to be installed. Additionally, [Gurobi](https://www.gurobi.com/downloads/) must be installed on the machine.  Here is the help output for the utility:
+To compute the optimal weights for smaller instances locally, there also exists a smaller command line utility available at  [upper-bound/weight-generation/smaller-lp/generate_weights.py](/upper-bound/weight-generation/smaller-lp/generate_weights.py). Note that the utility requires the python packages Pillow, numpy, matplotlib and gurobipy to be installed. Additionally, [Gurobi](https://www.gurobi.com/downloads/) must be installed on the machine.  Here is the help output for the utility program used to create smaller weightmaps:
 
 ```
 usage: generate_weights.py [-h] [-o OUT_IMG] [-w OUT_WEIGHTS] [-r] [-v] [-s {simplex,barrier,pdhg}] L W a b
