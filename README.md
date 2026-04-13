@@ -63,5 +63,21 @@ Upper and lower bound proofs for A(m) in A(n) can be found [here](/Am_in_An/). H
 | **A9**  |  |  |  |  |  |  |  |  |  | [A9 in A9](/Am_in_An/A9_in_A9/) | [A10 in A9](/Am_in_An/A10_in_A9/) |
 | **A10** |  |  |  |  |  |  |  |  |  |  | [A10 in A10](/Am_in_An/A10_in_A10/) |
 
+Here is a table of the resulting proven values:
 
-Lower bounds are given as arrangement files that can be loaded into [noel-friedrich.de/forp](https://noel-friedrich.de/forp/) as `.txt` files. Upper bounds are given as short descriptions contained in appropriate `.txt` files.
+|  | A0 | A1 | A2 | A3 | A4 | A5 | A6 | A7 | A8 | A9 | A10 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **A0** | =1 | =2 | =4 | =8 | =16 | =32 | =64 | =128 | **=258** | **=516** | **=1038** |
+| **A1** | | =1 | =2 | =4 | =8 | =16 | =32 | =64 | **=129** | **=258** | **=518** |
+| **A2** | | | =1 | =2 | =4 | =8 | =16 | =32 | =64 | =128 | **=258** |
+| **A3** | | | | =1 | =2 | =4 | =8 | =16 | =32 | =64 | **=129** |
+| **A4** | | | | | =1 | =2 | =4 | =8 | =16 | =32 | =64 |
+| **A5** | | | | | | =1 | =2 | =4 | =8 | =16 | =32 |
+| **A6** | | | | | | | =1 | =2 | =4 | =8 | =16 |
+| **A7** | | | | | | | | =1 | =2 | =4 | =8 |
+| **A8** | | | | | | | | | =1 | =2 | =4 |
+| **A9** | | | | | | | | | | =1 | =2 |
+| **A10** | | | | | | | | | | | =1 |
+
+
+Lower bounds are given as arrangement files that can be loaded into [noel-friedrich.de/forp](https://noel-friedrich.de/forp/) as `.txt` files. Upper bounds are given as short descriptions contained in appropriate `.txt/` or `.md` files.

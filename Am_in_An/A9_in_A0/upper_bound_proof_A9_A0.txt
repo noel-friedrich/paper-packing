@@ -1,2 +1,0 @@
-the minimum size instance of (1189, 841, 52, 37) is (1188, 839, 52, 37)
-area bound of (1188, 839, 52, 37) is 518.0519750519751
