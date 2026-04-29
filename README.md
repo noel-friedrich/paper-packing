@@ -63,7 +63,11 @@ Upper and lower bound proofs for A(m) in A(n) can be found [here](/Am_in_An/). H
 | **A9**  |  |  |  |  |  |  |  |  |  | [A9 in A9](/Am_in_An/A9_in_A9/) | [A10 in A9](/Am_in_An/A10_in_A9/) |
 | **A10** |  |  |  |  |  |  |  |  |  |  | [A10 in A10](/Am_in_An/A10_in_A10/) |
 
-Here is a table of the resulting proven values:
+- Lower bounds are given as arrangement files that can be loaded into [noel-friedrich.de/forp](https://noel-friedrich.de/forp/) as `.txt` files.
+- Upper bounds are given as short descriptions contained in appropriate `.txt/` or `.md` files.
+
+
+### Table of proven values
 
 |  | A0 | A1 | A2 | A3 | A4 | A5 | A6 | A7 | A8 | A9 | A10 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -79,5 +83,4 @@ Here is a table of the resulting proven values:
 | **A9** | | | | | | | | | | =1 | =2 |
 | **A10** | | | | | | | | | | | =1 |
 
-
-Lower bounds are given as arrangement files that can be loaded into [noel-friedrich.de/forp](https://noel-friedrich.de/forp/) as `.txt` files. Upper bounds are given as short descriptions contained in appropriate `.txt/` or `.md` files.
+- the first line of this table is documented as sequence [A395145](https://oeis.org/A395145) on the [On-Line Encyclopedia of Integer Sequences](https://oeis.org).
